@@ -31,6 +31,7 @@ O marco zero da GenAI moderna. Em 2017, o Google publicou o artigo *"Attention i
 * **Como funciona:** Substituiu a leitura sequencial pelo mecanismo de **Self-Attention**. O modelo analisa todas as palavras de uma vez e calcula matematicamente quais partes da frase merecem mais "atenção" para entender o contexto global.
 * **Resultado:** Treinamento altamente paralelizável (ideal para GPUs) e o nascimento dos Large Language Models (LLMs) como GPT, BERT e LLaMA.
 
+
 <!-- 
 ![Linha do Tempo Evolutiva do NLP](https://via.placeholder.com/800x200?text=Evolucao+do+NLP:+Regras+->+Estatistica+->+Deep+Learning+->+Transformers) 
 -->
@@ -78,7 +79,17 @@ O processo de transformar texto em arrays numéricos (vetores) onde a **distânc
 * **O truque mágico:** A famosa equação matemática de embeddings: `Vetor(Rei) - Vetor(Homem) + Vetor(Mulher) ≈ Vetor(Rainha)`.
 * **Impacto na Arquitetura:** Embeddings são o coração do **RAG**. Usamos embeddings para converter os documentos da nossa empresa e armazená-los em um banco de dados vetorial.
 
-![Visualização de Word Embeddings em espaço 3D](https://via.placeholder.com/800x400?text=Representacao+Visual+de+Embeddings+em+Espaco+Vetorial)
+
+<!-- ![Visualização de Word Embeddings em espaço 3D](https://via.placeholder.com/800x400?text=Representacao+Visual+de+Embeddings+em+Espaco+Vetorial) -->
+
+
+
+##  Visualização de Word Embeddings em espaço 3D
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/idelfrides/portfolio-assets/main/images/visual_representation_embeddings_3D.jpeg" alt="visual_representation_embeddings_3D.jpeg" width="800" title="Visual Representation of Embeddings 3D Vectors"/>
+</p>
+
 
 #### 💻 Exemplo Prático: Gerando Embeddings
 ```python
